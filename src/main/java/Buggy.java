@@ -4,7 +4,7 @@ import java.util.Map;
 public class Buggy {
 
     public void run() {
-        Map<String, Integer> map = new HashMap<String, Integer>();
+        Map<String, Integer> map = new HashMap<>();
 
         map.put("one", new Integer(1));
 
